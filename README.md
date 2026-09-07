@@ -2,34 +2,32 @@
 website: "Município de Vila do Conde"          # Entre as aspas escreve o nome do website
 date: "10/07/2026"                    # Entre as aspas escreve a data de criação do 1º relatório. Os restantes estão no histórico
 uri: "https://www.cm-viladoconde.pt"   # Entre as aspas escreve o domínio do website
-a11y_statement: "https://www.cm-viladoconde.pt/ficha-tecnica/declaracao-de-acessibilidade-e-usabilidade" # Entre as aspas escreve o URL da Declaração de Acessibilidade do website
+a11y_statement: "https://www.cm-viladoconde.pt/acessibilidade" # Entre as aspas escreve o URL da Declaração de Acessibilidade do website
 owner: "CM de Vila do Conde"         # Entre as aspas escrever o nome do owner do website
 seal: "Ouro"                          # Entre as aspas escreve Bronze, Prata ou Ouro
-validity: "dd/mm/aaaa a dd/mm/aaaa" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
-status: "Auditoria a decorrer" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
+validity: "07-09-2026 a 07-09-2027" # Entre as aspas escreve data de início e data de fim no formato 31/12/1999 a 31/12/2000
+status: "Concluído" # Entre as aspas escreve uma das seguintes opções: "Auditoria a decorrer", "A aguardar correções da entidade", "Concluído" 
 ---
 
-# Relatório de auditoria
-
-Sítio Web: {{ page.website }}
+# Município de Vila do Conde (Sítio Web)
 
 - Data de criação: {{ page.date }}
-- URL: {{ page.uri }}
-- Propriedade: {{ page.owner }}
-- Candidatura: {{ page.seal }}
-- Validade do selo: {{ page.validity }}
-- Estado: {{ page.status }}
+- URL: https://www.cm-viladoconde.pt
+- Propriedade: CM de Vila do Conde
+- Candidatura: Ouro
+- Validade do selo: 07-09-2026 a 07-09-2027
+- Estado: Concluído
 
-## Relatório {{ page.website }}
+## Relatório de auditoria
 
 <p>O presente relatório resultou da auditoria da informação publicada na <a href="{{ page.a11y_statement }}">Declaração de Acessibilidade e Usabilidade</a>.</p>
 
-Consulte aqui a última atualização: [Relatório {{ page.website }}](report.html)
+Consulte aqui a última atualização: [Relatório Município de Vila do Conde](report.html)
 
 <details>
   <summary>Histórico de atualizações</summary>
   <ul aria-label="lista de relatórios já efetuados">
-    <li><a href="10072026_report.html">(dd/mm/aaaa). Relatório {{ page.website }}</a></li>
+    <li><a href="07092026_report.html">(07/09/2026). Relatório Município de Vila do Conde</a></li>
   </ul>
 </details>
 
